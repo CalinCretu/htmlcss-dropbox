@@ -157,6 +157,8 @@ h2 {
     flex-direction: column;
 }
 
+
+
 .row-main {
     display: flex;
 	flex-wrap: wrap;
@@ -167,14 +169,18 @@ h2 {
     text-align: center;
     border-bottom: 1px solid grey;
     line-height: 40px;
+    border-bottom:  1px solid rgb(120, 120, 120);
 }
 
+
+
 .card-content {
-    text-align: left;
     padding: 10px;
     margin-top: 20px;
     margin-left: 10px;
 }
+
+
 
 .link-free-trial {
     margin-top: 60px;
@@ -186,9 +192,19 @@ h2 {
     text-decoration: underline;
 }
 
+hr {
+    margin: 30px 0px 40px 0px;
+    width: 50px;
+    border:  1px solid rgb(120, 120, 120);
+}
 
+.col-footer{
+    margin-top: 40px;
+}
 
-
+.blue {
+    color: #0061ff;
+}
 
 
 
@@ -237,3 +253,41 @@ h2 {
     
 }
 
+.container-col-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
+.card-title-long {
+    text-align: center;
+    border-bottom: 1px solid grey;
+    line-height: 40px;
+    border:  1px solid rgb(120, 120, 120);
+}
+.row-main-2 {
+    flex-direction: column;
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    border:  1px solid rgb(120, 120, 120);
+    border-top: none;
+    height: 140px;
+}
+.col-9 {
+	flex-basis: calc((100% / 12) * 9);
+}
+
+.card-content-2 {
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.col-3 {
+    display: flex;
+    flex-basis: calc((100% / 12) * 3);
+    justify-content: end;
+    margin-top: 40px;
+    margin-right: 20px;
+}
