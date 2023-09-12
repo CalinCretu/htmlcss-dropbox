@@ -5,6 +5,22 @@
     font-family: 'Patrick Hand', cursive;
 }
 
+:root {
+    --blue: #0061ff;
+    --light-blue: #B4D0E7;
+    --dark: black;
+    --bordeaux: #61082B;
+    --green: #A2D39B;
+    --yellow: #FFD830;
+    --dark-red: #D10020;
+    --light-gray: #f5f5f5;
+    --light: 
+}
+
+.container-fluid {
+    max-width: 100%;
+}
+
 ul, li {
     list-style: none;
 }
@@ -20,11 +36,11 @@ ul {
 .header-row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-col {
    display: inline-block;
-   align-items: center;
    
 }
 
@@ -38,6 +54,9 @@ ul {
     margin: 0 10px;
 }
 
+.logo-small {
+    display: block;
+}
 
 a {
     text-decoration: none;
@@ -86,8 +105,7 @@ i {
 }
 .img-section-1 {
     max-width: 100%;
-    position: absolute;
-   
+    
 }
 
 .arrow-down {
@@ -105,7 +123,7 @@ i {
 
 .col-8 {
 	flex-basis: calc((100% / 12) * 8);
-    position: relative;
+    
 }
 
 .col-4 {
@@ -206,53 +224,6 @@ hr {
     color: #0061ff;
 }
 
-
-
-
-
-
-.debug .header-container {
-    
-    
-}
-
-.debug .header-row {
-    
-   
-}
-
-.debug .header-col {
-    
-    
-}
-
-
-
-.debug .row {
-}
-
-.debug .col-8 {
-
-   
-}
-
-.debug .col-4 {
-
-}
-
-.debug .container-small {
-
-}
-
-.debug .cta-payment {
-    
-    
-}
-
-.debug .container-cta-col {
-    
-}
-
 .container-col-2 {
     display: flex;
     flex-direction: column;
@@ -290,4 +261,52 @@ hr {
     justify-content: end;
     margin-top: 40px;
     margin-right: 20px;
+}
+
+
+
+
+
+
+.debug .header-container {
+    
+    
+}
+
+.debug .header-row {
+    
+   
+}
+
+.debug .header-col {
+    
+    
+}
+
+
+
+.debug .row {
+
+}
+
+.debug .col-8 {
+
+   
+}
+
+.debug .col-4 {
+
+}
+
+.debug .container-small {
+
+}
+
+.debug .cta-payment {
+    
+    
+}
+
+.debug .container-cta-col {
+    
 }
