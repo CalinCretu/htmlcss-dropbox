@@ -103,7 +103,7 @@ h1 {
 i {
     padding: 5px;
 }
-.img-section-1 {
+.img {
     max-width: 100%;
     
 }
@@ -127,20 +127,13 @@ i {
 }
 
 .col-4 {
-	flex-basis: calc((100% / 12) * 3.5);
+	flex-basis: calc((100% / 12) * 4);
     display: flex;
     flex-direction: column;
-    padding: 10px;
-}
-
-.row-main > .col-4 {
-    flex-basis: calc((100% / 12) * 3.5);
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    border: 1px solid grey;
     
 }
+
+
 
 h2 {
     font-size: 40px;
@@ -173,9 +166,9 @@ h2 {
 .container-col {
     display: flex;
     flex-direction: column;
+    max-width: 940px;
+    margin: 0 auto;
 }
-
-
 
 .row-main {
     display: flex;
@@ -183,19 +176,20 @@ h2 {
     justify-content: space-between;
 }
 
-.card-title {
-    text-align: center;
-    border-bottom: 1px solid grey;
-    line-height: 40px;
-    border-bottom:  1px solid rgb(120, 120, 120);
+.row-main > .col-4 {
+    flex-basis: calc((100% / 12) * 4);
+    padding: 0 20px;
 }
 
-
+.card-title {
+    text-align: center;
+    line-height: 40px;
+    border:  1px solid rgb(120, 120, 120);
+}
 
 .card-content {
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: 10px;
+    padding: 20px;
+    border:  1px solid rgb(120, 120, 120);
 }
 
 
@@ -203,7 +197,7 @@ h2 {
 .link-free-trial {
     margin-top: 60px;
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .buy-now {
@@ -229,6 +223,7 @@ hr {
     flex-direction: column;
     width: 100%;
     margin-top: 50px;
+    padding: 0 20px;
 }
 .card-title-long {
     text-align: center;
@@ -263,50 +258,40 @@ hr {
     margin-right: 20px;
 }
 
-
-
-
-
-
-.debug .header-container {
-    
-    
+.partner {
+    max-width: 900px;
+    margin: 140px auto;
 }
 
-.debug .header-row {
-    
-   
-}
-
-.debug .header-col {
-    
-    
-}
-
-
-
-.debug .row {
+.partner-container {
 
 }
 
-.debug .col-8 {
-
-   
+.partner-row {
+    display: flex;
+    flex: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.debug .col-4 {
 
+.partner-col-8 {
+    flex-basis: calc((100% / 12) * 8);
 }
 
-.debug .container-small {
-
+.partner-col-4 {
+    flex-basis: calc((100% / 12) * 4);
+    padding: 45px;
+    line-height: 25px;
 }
 
-.debug .cta-payment {
-    
-    
+.partner-description {
+    margin: 20px 0 40px 0;
 }
 
-.debug .container-cta-col {
-    
+.white-button{
+    background-color: white;
+    color: grey;
+    padding: 4px 18px;
+    border: 1px solid grey;
 }
