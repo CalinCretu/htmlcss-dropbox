@@ -134,9 +134,8 @@ i {
 }
 
 
-
 h2 {
-    font-size: 40px;
+    font-size: 48px;
 }
 
 .blue-circle {
@@ -263,10 +262,6 @@ hr {
     margin: 140px auto;
 }
 
-.partner-container {
-
-}
-
 .partner-row {
     display: flex;
     flex: wrap;
@@ -294,4 +289,8 @@ hr {
     color: grey;
     padding: 4px 18px;
     border: 1px solid grey;
+}
+
+.margin-top {
+    margin-top: 60px;
 }
