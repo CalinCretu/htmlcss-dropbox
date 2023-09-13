@@ -375,3 +375,18 @@ hr {
     aspect-ratio: 0.5;
 }
 
+.card-content__option-cards__middle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 50px;
+}
+.bigger-logo {
+    max-width: 50%;
+    margin-bottom: 40px;
+}
+
+.middle-teams-description > p {
+    font-size: 25px;
+}
