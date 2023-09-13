@@ -368,6 +368,10 @@ hr {
     justify-content: center;
     align-items: center;
 }
+.card-content__option-cards.green {
+    outline: 13px solid #CBDEC5;
+    outline-offset: -13px;
+}
 
 .teams-logo {
     filter: invert(1);
