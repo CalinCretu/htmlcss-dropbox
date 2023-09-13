@@ -99,9 +99,16 @@ a {
 }
 
 .blue-button {
+    display: flex;
     background-color: #0061ff;
     color: white;
-    padding: 4px 18px;
+    padding: 5px;
+    width: 100%;
+    justify-content: center;
+}
+
+.width-70 {
+    max-width: 70%;
 }
 
 .container-big {
@@ -230,9 +237,11 @@ h2 {
 
 
 .link-free-trial {
-    margin-top: 60px;
+    display: flex;
+    margin-top: 50px;
     text-align: left;
     font-size: 18px;
+    justify-content: center;
 }
 
 .buy-now {
@@ -398,9 +407,6 @@ hr {
     font-size: 20px;
 }
 
-.dropbox-teams {
-   
-}
 
 .container-big-viewport {
     background-color: var(--light-blue);
