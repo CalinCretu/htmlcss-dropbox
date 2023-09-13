@@ -294,3 +294,49 @@ hr {
 .margin-top {
     margin-top: 60px;
 }
+
+.dropbox-teams .container-small > p {
+    margin-top: 50px;
+    text-decoration: underline;
+    margin-bottom: 100px;
+}
+
+.teams {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teams-col-6 {
+    flex-basis: calc((100% / 12) * 6);
+    border: 2px solid red;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.row-main__clients {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.teams-col-4 {
+    flex-basis: calc((100% / 12) * 4);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+}
+
+.card-content__option-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.teams-logo {
+    max-width: 50%;
+    aspect-ratio: 0.5;
+}
