@@ -19,7 +19,7 @@
     --dark-blue: #0D2481;
 }
 
-.blue {
+.blue-bk {
     background-color: var(--blue);
 }
 .light-blue{
@@ -390,5 +390,43 @@ hr {
 }
 
 .middle-teams-description > p {
+    display: flex;
     font-size: 20px;
+}
+
+.dropbox-teams {
+   
+}
+
+.container-big-viewport {
+    background-color: var(--light-blue);
+}
+
+.row-main-3 {
+    flex-direction: column;
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: none;
+    height: 140px;
+    margin: 60px 0;
+}
+
+.card-content-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.bordeaux-text {
+    color: var(--bordeaux);
+}
+
+.white-button-no-border {
+    background-color: var(--light-gray);
+    color: var(--dark);
+    padding: 4px 18px;
+}
+
+.margin-top-0 {
+    margin-top: 0;
 }
