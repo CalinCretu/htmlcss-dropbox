@@ -376,11 +376,13 @@ hr {
 }
 
 .card-content__option-cards__middle {
+    background-color: var(--light-gray);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: left;
     padding: 50px;
+    height: 100%;
 }
 .bigger-logo {
     max-width: 50%;
@@ -388,5 +390,5 @@ hr {
 }
 
 .middle-teams-description > p {
-    font-size: 25px;
+    font-size: 20px;
 }
